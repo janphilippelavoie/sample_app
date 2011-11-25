@@ -7,7 +7,8 @@ gem 'rails', '3.1.3'
 
 gem 'sqlite3'
 
-
+#Blueprint rails bundle
+gem 'blueprint-rails'
 
 group :development do
       gem 'rspec-rails'
