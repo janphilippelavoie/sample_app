@@ -8,6 +8,9 @@ gem 'rake', '0.8.7'
 
 gem 'sqlite3'
 
+#Gravatar image tag
+gem 'gravatar_image_tag', '0.1.0'
+
 #Blueprint rails bundle
 gem 'blueprint-rails'
 
@@ -20,7 +23,7 @@ group :test do
       gem 'rspec'
       gem 'webrat'
       gem 'spork', '0.9.0.rc8'	
-
+      gem 'factory_girl_rails', '1.0'
 end
 
 group :production do
