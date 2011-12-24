@@ -14,9 +14,12 @@ gem 'gravatar_image_tag', '0.1.0'
 #Blueprint rails bundle
 gem 'blueprint-rails'
 
+gem 'will_paginate', '3.0.pre2'
+
 group :development do
       gem 'rspec-rails'
       gem 'annotate', '2.4.0'
+      gem 'faker', '0.3.1'
 end
 
 group :test do
@@ -27,7 +30,6 @@ group :test do
 end
 
 group :production do
-      
 end
 
 # Gems used only for assets and not required
